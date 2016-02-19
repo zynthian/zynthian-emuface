@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="logo">
+    <file>img/zynthian_logo_black.png</file>
+  </qresource>
+</RCC>
