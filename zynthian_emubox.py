@@ -84,7 +84,7 @@ class Ui_ZynthianEmubox(object):
         self.gridLayout_screen = QtGui.QGridLayout(self.gridLayoutWidget_2)
         self.gridLayout_screen.setObjectName(_fromUtf8("gridLayout_screen"))
         self.frame_screen = QtGui.QFrame(self.gridLayoutWidget_2)
-        self.frame_screen.setFrameShape(QtGui.QFrame.StyledPanel)
+        self.frame_screen.setFrameShape(QtGui.QFrame.NoFrame)
         self.frame_screen.setFrameShadow(QtGui.QFrame.Raised)
         self.frame_screen.setObjectName(_fromUtf8("frame_screen"))
         self.gridLayout_screen.addWidget(self.frame_screen, 0, 0, 1, 1)

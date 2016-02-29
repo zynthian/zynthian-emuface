@@ -1,4 +1,31 @@
 #!/usr/bin/python3
+# -*- coding: utf-8 -*-
+#********************************************************************
+# ZYNTHIAN PROJECT: Zynthian Emulator
+# 
+# This program emulates a Zynthian Box.
+# It embed the Zynthian GUI and uses rotary QT widgets to emulate
+# the phisical rotary encoders throw the zyncoder library's emulation
+# layer.
+# 
+# Copyright (C) 2015-2016 Fernando Moyano <jofemodo@zynthian.org>
+#
+#********************************************************************
+# 
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation; either version 2 of
+# the License, or any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# For a full copy of the GNU General Public License see the doc/GPL.txt file.
+# 
+#********************************************************************
+
 import sys
 import signal
 import os
@@ -72,7 +99,7 @@ class MainWindow(QtGui.QMainWindow):
 		self.ui.rencoder_4.valueChanged.connect(self.cb_rencoder_4_change)
 		# Embed Zynthian GUI
 		self.zynthian_container = QtGui.QX11EmbedContainer(self.ui.frame_screen)
-		self.zynthian_container.setGeometry(QRect(5, 10, 320, 240))
+		self.zynthian_container.setGeometry(QRect(1, 3, 320, 240))
 		if len(sys.argv)>1:
 			self.zynthian_pid=int(sys.argv[1])
 		else:
