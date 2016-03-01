@@ -5,7 +5,7 @@ It allows to run the Zynthian User Interface and Synth Engines in a Desktop or L
 
 ![Image of Zynthian Box Emulator](https://raw.githubusercontent.com/zynthian/zynthian-emuface/master/img/zynthian_emuface_control_screenshot.png)
 
-Requirements:
+### Requirements:
 
  * ZynAddSubFX (last version: 5.3)
  * FluidSynth
@@ -15,7 +15,7 @@ Requirements:
  
 Perhaps you have to adjust the binary paths in the engine classes (zynthian-ui/zyngine/...)
 
-Install procedure:
+### Install procedure:
 
 ```
 mkdir zynthian
@@ -39,10 +39,10 @@ Also, you have to create a symlink to your ZynAddSubFX bank directory:
 
 ```
 cd zynthian-data
-ln -s your_zasfx_bankdir_path zynbanks
+ln -s your/zasfx/bankdir/path zynbanks
 ```
 
-Execution:
+### Execution:
 ```
 cd zynthian-emuface
 ./zynthian_emuface.py
