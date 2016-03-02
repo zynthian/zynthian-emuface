@@ -20,10 +20,10 @@ Perhaps you have to adjust the binary paths in the engine classes (zynthian-ui/z
 ```
 mkdir zynthian
 cd zynthian
-git clone git@github.com:zynthian/zyncoder.git
-git clone git@github.com:zynthian/zynthian-ui.git
-git clone git@github.com:zynthian/zynthian-data.git
-git clone git@github.com:zynthian/zynthian-emuface.git
+git clone https://github.com/zynthian/zyncoder.git
+git clone https://github.com/zynthian/zynthian-ui.git
+git clone https://github.com/zynthian/zynthian-data.git
+git clone https://github.com/zynthian/zynthian-emuface.git
 echo 'PROTOTYPE-EMU' > zynthian_hw_version.txt
 ```
 You have to put your samples in "zynthian-data/soundfonts", organized by type, in three subdirectories:
