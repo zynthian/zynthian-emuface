@@ -6,14 +6,23 @@ It allows to run the Zynthian User Interface and Synth Engines in a Desktop or L
 ![Image of Zynthian Box Emulator](https://raw.githubusercontent.com/zynthian/zynthian-emuface/master/img/zynthian_emuface_control_screenshot.png)
 
 ### Requirements:
+ * Python3 AlsaSeq library
+ * Python3 JACK-Client library
 
- * ZynAddSubFX (last version: 5.3)
- * FluidSynth
- * LinuxSampler (1.0)
- * setBfree
- * Carla
+### Supported Engines:
+ * [ZynAddSubFX] (https://github.com/fundamental/zynaddsubfx) (last version is recommended: 5.3)
+ * [FluidSynth] (http://www.fluidsynth.org/)
+ * [LinuxSampler 1.0] (https://www.linuxsampler.org/)
+ * [setBfree] (https://github.com/pantherb/setBfree)
+ * [Carla] (https://github.com/falkTX/Carla)
+  
+#### Some plugins to enjoy with Carla:
+ * [Dexed] (https://github.com/asb2m10/dexed)
+ * [DISTRHO Plugins-Ports] (https://github.com/DISTRHO/DISTRHO-Ports)
  
 Perhaps you have to adjust the binary paths in the engine classes (zynthian-ui/zyngine/...)
+
+Also, take a look to the [Raspbian Jessie setup script] (https://github.com/zynthian/zynthian-sys/blob/master/scripts/setup_system_jessie.sh). It can help you to setup your own system.
 
 ### Install procedure:
 
