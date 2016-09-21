@@ -68,4 +68,4 @@ And zynthian UI will open the native GUI for every engine.
 
 Read [this blog entry] (http://blog.zynthian.org/index.php/2016/02/27/zynthian-emulator) about the Zynthian Emulator.
 
-You can learn more about the Zynthian Project reading [the blog] (http://blog.zynthian.org) or visiting [the website] (http://zynthian.org).
+You can learn more about the Zynthian Project reading [the blog] (http://blog.zynthian.org) or visiting [the website] (http://zynthian.org). Also, you can join the conversation in [the forum] (https://discourse.zynthian.org).
