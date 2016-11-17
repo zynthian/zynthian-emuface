@@ -369,7 +369,7 @@
 color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
-       <string>1 / chan</string>
+       <string>1 / CH</string>
       </property>
       <property name="iconSize">
        <size>
@@ -420,7 +420,7 @@ color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
-       <string>2 / back</string>
+       <string>2 / BACK</string>
       </property>
       <property name="iconSize">
        <size>
@@ -580,7 +580,7 @@ color: rgb(255, 255, 255);</string>
     <rect>
      <x>470</x>
      <y>260</y>
-     <width>98</width>
+     <width>99</width>
      <height>36</height>
     </rect>
    </property>
@@ -611,7 +611,7 @@ color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
-       <string>4 / select</string>
+       <string>4 / SELECT</string>
       </property>
       <property name="iconSize">
        <size>
@@ -659,7 +659,7 @@ color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
-       <string>3 / opt</string>
+       <string>3 / LS</string>
       </property>
       <property name="iconSize">
        <size>

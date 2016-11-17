@@ -233,7 +233,7 @@ class Ui_ZynthianEmubox(object):
         self.rencoder_3.setObjectName(_fromUtf8("rencoder_3"))
         self.gridLayout_R3.addWidget(self.rencoder_3, 0, 0, 1, 1)
         self.gridLayoutWidget_8 = QtGui.QWidget(ZynthianEmubox)
-        self.gridLayoutWidget_8.setGeometry(QtCore.QRect(470, 260, 98, 36))
+        self.gridLayoutWidget_8.setGeometry(QtCore.QRect(470, 260, 99, 36))
         self.gridLayoutWidget_8.setObjectName(_fromUtf8("gridLayoutWidget_8"))
         self.gridLayout_B4 = QtGui.QGridLayout(self.gridLayoutWidget_8)
         self.gridLayout_B4.setObjectName(_fromUtf8("gridLayout_B4"))
@@ -335,9 +335,9 @@ class Ui_ZynthianEmubox(object):
 
     def retranslateUi(self, ZynthianEmubox):
         ZynthianEmubox.setWindowTitle(_translate("ZynthianEmubox", "Form", None))
-        self.switch_1.setText(_translate("ZynthianEmubox", "1 / chan", None))
-        self.switch_2.setText(_translate("ZynthianEmubox", "2 / back", None))
-        self.switch_4.setText(_translate("ZynthianEmubox", "4 / select", None))
-        self.switch_3.setText(_translate("ZynthianEmubox", "3 / opt", None))
+        self.switch_1.setText(_translate("ZynthianEmubox", "1 / CH", None))
+        self.switch_2.setText(_translate("ZynthianEmubox", "2 / BACK", None))
+        self.switch_4.setText(_translate("ZynthianEmubox", "4 / SELECT", None))
+        self.switch_3.setText(_translate("ZynthianEmubox", "3 / LS", None))
 
 import zynthian_emuface_rc
