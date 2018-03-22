@@ -99,7 +99,7 @@ class MainWindow(QtGui.QMainWindow):
 		self.ui.rencoder_4.valueChanged.connect(self.cb_rencoder_4_change)
 		# Embed Zynthian GUI
 		self.zynthian_container = QtGui.QX11EmbedContainer(self.ui.frame_screen)
-		self.zynthian_container.setGeometry(QRect(1, 3, 320, 240))
+		self.zynthian_container.setGeometry(QRect(1, 3, 480 ,320))
 		if len(sys.argv)>1:
 			self.zynthian_pid=int(sys.argv[1])
 		else:
